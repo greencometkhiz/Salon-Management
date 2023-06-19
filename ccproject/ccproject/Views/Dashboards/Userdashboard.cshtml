@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "Admindashboard";
+    Layout = "~/Views/Shared/Userdashlayout.cshtml";
+}
+
+
+
+<center>
+    <h2>Dashboard</h2>
+    <div>
+
+        <h3>Welcome @Session["Username"]</h3>
+</center>
+
+<div>
+
+    <div class="container" style="float:left;width: 400px; height: 300px; margin: 15px; background-color: white; color: purple;border:solid">
+        <br />
+        <br />
+        <br />
+        <br /><center>
+            <h2>Total Products</h2>
+            <h1>@ViewBag.prod</h1>
+        </center>
+    </div>
+
+    <div class="container" style="float:right;width: 400px; height: 300px; margin: 15px; background-color: purple; color: white;">
+        <br />
+        <br />
+        <br />
+        <br /><center>
+            <h2>Total Services</h2>
+            <h1>@ViewBag.serve</h1>
+        </center>
+    </div>
+
+
+
+</div>
+<div>
+
+    <div class="container" style="float:left;width: 400px; height: 300px; margin: 15px; background-color: purple; color: white;border:solid">
+        <br />
+        <br />
+        <br />
+        <br /><center>
+            <h2>Total Payments</h2>
+            <h1>@ViewBag.pay</h1>
+        </center>
+    </div>
+
+    <div class="container" style="float:right;width: 400px; height: 300px; margin: 15px; background-color: white; color: purple;border:solid">
+        <br />
+        <br />
+        <br />
+        <br /><center>
+            <h2>Total Appointments</h2>
+            <h1>@ViewBag.app</h1>
+        </center>
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
